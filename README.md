@@ -15,9 +15,8 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
    - Connect to the server created .
    - Ensure MongoDb is using port 5000.
 
-3. **Node Version Manager (NVM):**
-   - Install NVM from [github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm).
-   - Use NVM to install Node.js version 14.11.0: `nvm install 14.11.0`.
+3. **Node JS:**
+   - Install NVM from [nodejs.com/npm](https://nodejs.org/en/download/package-manager).
 
 ### Backend Setup:
 
@@ -31,20 +30,25 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
    - Open a terminal in the backend project folder.
    - Run the following commands:
      ```bash
-     mvn clean install
+     npm install jwt-decode
+     npm install jsonwebtoken
+     npm install express dotenv google-auth-library
+     npm install bcryptjs
+     npm install uuid
+     npm install firebase
      ```
 
 3. **Run Backend:**
-   - Start your XAMPP Apache and MySQL servers.
-   - Run the Spring Boot application. The database and entities will be created automatically.
-   - Verify that the backend is running by visiting [http://localhost:8082](http://localhost:8082) in your browser.
+   - Start your Mongodb server.
+   - Run the application. The database and entities will be created automatically.
+   - When it works it gonna show listening on port 5000.
 
 ### Frontend Setup:
 
-1. **Install Node.js and Angular:**
+1. **Install Node.js and React:**
    - Open a new terminal for the frontend project.
-   - Ensure NVM is using Node.js version 14.11.0: `nvm use 14.11.0`.
-   - Install Angular CLI globally: `npm install -g @angular/cli`.
+   - Ensure Npm is installed.
+   - Install React CLI globally: `npm install -g create-react-app`.
 
 2. **Install Frontend Dependencies:**
    - Run the following commands in the frontend project folder:
@@ -58,12 +62,12 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
      ```
 
 3. **Run Frontend:**
-   - After installing dependencies, start the Angular development server:
+   - After installing dependencies, start the React development server:
      ```bash
-     ng serve
+     npm start
      ```
 
-   - Access the frontend at [http://localhost:4200](http://localhost:4200) in your browser.
+   - Access the frontend at [http://localhost:3000/](http://localhost:3000/) in your browser.
 
 Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure that all dependencies and prerequisites are correctly installed.
 

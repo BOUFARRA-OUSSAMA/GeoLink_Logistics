@@ -16,7 +16,7 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
    - Ensure MongoDb is using port 5000.
 
 3. **Node JS:**
-   - Install NVM from [nodejs.com/npm](https://nodejs.org/en/download/package-manager).
+   - Install NPM from [nodejs.com/npm](https://nodejs.org/en/download/package-manager).
 
 ### Backend Setup:
 

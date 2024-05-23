@@ -16,7 +16,7 @@ The backend code follows a modular and organized structure, leveraging the power
 ### 2. `tryCatch.js.controller`
 
 - **tryCatch.js:** This utility function wraps controller functions, handling any errors that occur during their execution by logging the error and sending an appropriate error response with a status code of 500, providing a layer of error handling abstraction for HTTP request processing.
-- 
+  
 ### 3. `GeoLink_Logistics.service`
 
 - **checkOwner.js:** This service function checks if the authenticated user is the owner of a specific offer by querying the database with the offer ID and the user ID, returning true if the user is the owner, false otherwise, or 'error' in case of an error.
@@ -26,13 +26,13 @@ The backend code follows a modular and organized structure, leveraging the power
 - **userPermissions.js:** This service module defines permissions for listing users and updating user status based on user roles, adhering to the structure where roles determine access levels within the application. It encapsulates business logic and serves as an intermediary between controllers and repositories, providing a clean abstraction layer for managing user-related operations.
 
 
-### 4. `com.example.model`
+### 4. `GeoLink_Logistics.model`
 
 - **Offer.js:**  This model defines the structure and constraints for offers in the application, including geographical location, price, title, description, images, and user information, and maps to the MongoDB collection with timestamps.
 
 - **User.js:** This model defines the structure and constraints for user accounts in the application, including name, email, password, photo URL, role, and active status, and maps to the MongoDB collection with timestamps.
   
-### 5. `com.example.repository`
+### 5. `GeoLink_Logistics.repository`
 
 - **Repository Interfaces:** The repository package houses interfaces extending Spring Data JPA repositories, furnishing methods for fundamental CRUD operations and facilitating database interaction for the Breadcrumbs GeoLink_Logistics application.
 

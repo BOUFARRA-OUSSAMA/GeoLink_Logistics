@@ -11,7 +11,7 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
    - Make sure you have Git installed. If not, download and install it from [git-scm.com](https://git-scm.com/).
 
 2. **MongoDb:**
-   - Install MongoDb from ([https://www.apachefriends.org/](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.9-signed.msi)).
+   - Install MongoDb from ([https://www.MongoDb.org/](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.9-signed.msi)).
    - Connect to the server created .
    - Ensure MongoDb is using port 5000.
 

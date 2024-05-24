@@ -24,10 +24,10 @@ Our application is a web-based platform that aims to improve logistics managemen
 ## Software Architecture
 ![archi](photos/archi.png)
 
-The GeoLink project is a logistics and supply chain improvement solution built using the MERN stack (MongoDB, Express, React, Node.js). MongoDB stores user data and shipment information, while Firebase handles storage for photos of both products and users. The frontend is developed with React and Mapbox for geolocation and mapping functionalities. The backend uses Node.js with Express, structuring the application with controllers in controllers directory, models in models directory, and routes in routes directory to handle authentication, shipment tracking, and data management. The frontend interacts with the backend through API endpoints defined in these routes to perform necessary operations, ensuring an efficient and responsive user experience.
+GeoLink project is a logistics and supply chain improvement solution built using the MERN stack (MongoDB, Express, React, Node.js). MongoDB stores user data and shipment information, while Firebase handles storage for photos of both products and users. The frontend is developed with React and Mapbox for geolocation and mapping functionalities. The backend uses Node.js with Express, structuring the application with controllers in controllers directory, models in models directory, and routes in routes directory to handle authentication, shipment tracking, and data management. The frontend interacts with the backend through API endpoints defined in these routes to perform necessary operations, ensuring an efficient and responsive user experience.
 
 
-## Backend
+## backend
 
 ### Technologies Used
 
@@ -69,7 +69,7 @@ The backend code follows a modular and organized structure, leveraging the power
 
 
 
-### Dependencies
+### dependencies
 
   
 1. **Supercluster:**
@@ -114,7 +114,7 @@ The backend code follows a modular and organized structure, leveraging the power
 
 
 
-## Getting Started
+## getting-started
 
 Certainly! Here are step-by-step instructions to set up and run your project locally:
 

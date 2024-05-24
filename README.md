@@ -2,11 +2,10 @@
 
 ### Technologies Used
 
-- React.js
 - Mangodb
 - Node.js
 - Firebase
-- Maven
+- Express.js
 
 ## Backend Project Structure
 
@@ -43,43 +42,39 @@ The backend code follows a modular and organized structure, leveraging the power
 ### Dependencies
 
 
-1. **React.js:**
-   - Purpose: A JavaScript library for building user interfaces, particularly single-page applications. 
+ 
 
   
-2 **Supercluster:**
+1. **Supercluster:**
    - Purpose: A JavaScript library for fast geospatial indexing and clustering of spatial data.
    - Description: Supercluster offers efficient algorithms for clustering large sets of spatial data, enhancing performance and scalability in mapping applications.
 
- 3. **Material UI5 (MUI5):**
-   - Purpose: A user interface library for building responsive web applications with modern design principles.
-   - Description: MUI5 provides a set of reusable UI components based on Google's Material Design guidelines, facilitating the development of visually appealing and consistent user interfaces.
 
- 4. **Node.js:**
+2. **Node.js:**
    - Purpose: A JavaScript runtime built on Chrome's V8 JavaScript engine for server-side applications.
    - Description: Node.js allows the execution of JavaScript code outside a web browser, enabling the development of scalable and high-performance server-side applications.
 
-5. **Express.js:**
+3. **Express.js:**
    - Purpose: A minimalist web application framework for Node.js.
    - Description: Express.js simplifies the process of building web applications and APIs with Node.js by providing a robust set of features for routing, middleware, and HTTP request handling.
 
-6. **MongoDB:**
+4. **MongoDB:**
    - Purpose: A NoSQL document database for storing and retrieving data in JSON-like documents.
    - Description: MongoDB offers flexibility and scalability for managing structured and unstructured data, making it suitable for a wide range of use cases, including real-time analytics, content management, and mobile applications.
 
-7. **Mongoose:**
+5. **Mongoose:**
    - Purpose: An Object Data Modeling (ODM) library for MongoDB and Node.js.
    - Description: Mongoose simplifies interactions with MongoDB databases by providing a schema-based solution for modeling application data, enforcing data validation, and defining query interfaces.
 
- 8.**Firebase Storage:**
+ 6.**Firebase Storage:**
    - Purpose: A cloud storage solution provided by Google Firebase for storing user-generated content.
    - Description: Firebase Storage offers scalable and secure file storage for web and mobile applications, allowing developers to upload and download files easily while leveraging Firebase's authentication and security features.
 
- 9.**Mapbox:**
+ 7.**Mapbox:**
    - Purpose: A mapping platform for building custom maps and location-based applications.
    - Description: Mapbox provides APIs and SDKs for integrating interactive maps, geocoding, and navigation features into web and mobile applications, offering customization options and real-time data visualization capabilities.
 
-10. **React-Map-GL:**
+9. **React-Map-GL:**
    - Purpose: A React component library for creating interactive maps using Mapbox GL JS.
    - Description: React-Map-GL simplifies the integration of Mapbox GL JS functionality into React applications, enabling developers to build dynamic and responsive mapping experiences with React components.
 
@@ -88,6 +83,4 @@ The backend code follows a modular and organized structure, leveraging the power
     - Description: The Global Context Provider pattern allows centralized management of application state, reducing prop drilling and providing a convenient way to share data and functionality across components without the need for prop passing at every level.
 
 
-12. **RESTful APIs:** Enable efficient communication between the front-end and the back-end using REST architectural principles, providing web services for exchanging data and functionalities in a flexible manner.
   
-13. **Maven:** Is a project management and build tool that streamlines the development process by automating tasks such as compilation, dependency management, and deployment.

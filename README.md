@@ -1,5 +1,5 @@
 # GeoLink_Logistics
-![logo](photos/logo.png)
+![logo](photos/logi.png)
 
 this article introduces our user-friendly web application that aims to improve logistics management and supply chaines using a geolocation solution Our focus is making our users to have a better experience in managing their work with a simple interface , making it easier to interact for both clients and drivers and make it possible for them to have a bette communication and tracking system.
 In our application, we have integrated a map that allow users to track their orders and drivers in real time, and also to have a better visibility on the delivery process.

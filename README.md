@@ -197,6 +197,9 @@ The backend code follows a modular and organized structure, leveraging the power
 5. **Mongoose:**
    - Purpose: An Object Data Modeling (ODM) library for MongoDB and Node.js.
    - Description: Mongoose simplifies interactions with MongoDB databases by providing a schema-based solution for modeling application data, enforcing data validation, and defining query interfaces.
+   ## Project DataBase 
+      ![db](photos/db.png)
+
 
  6.**Firebase Storage:**
    - Purpose: A cloud storage solution provided by Google Firebase for storing user-generated content.

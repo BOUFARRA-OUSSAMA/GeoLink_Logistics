@@ -195,7 +195,7 @@ The backend code follows a modular and organized structure, leveraging the power
 4. **MongoDB:**
    - Purpose: A NoSQL document database for storing and retrieving data in JSON-like documents.
    - Description: MongoDB offers flexibility and scalability for managing structured and unstructured data, making it suitable for a wide range of use cases, including real-time analytics, content management, and mobile applications.
-  ### Project DataBase 
+  # Project DataBase 
       ![db](photos/db.png)
 
 5. **Mongoose:**
@@ -219,7 +219,7 @@ The backend code follows a modular and organized structure, leveraging the power
     - Description: The Global Context Provider pattern allows centralized management of application state, reducing prop drilling and providing a convenient way to share data and functionality across components without the need for prop passing at every level.
 
 
- ##Illustrative_examples
+ ## Illustrative_examples
 In our application we focus on simplicity also focusing on the main objectif of our app , as you can see , when a user access our web application the map and offers would be the first things to displayed, the user also can filter or click on offers button to display a list of all offers all over the world. 
  ![Consulter](photos/consulter.png)
 

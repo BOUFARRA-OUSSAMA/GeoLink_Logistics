@@ -13,7 +13,10 @@ In our application, we have integrated a map that allow users to track their ord
 - [Dependencies](#dependencies)
 - [Illustrative_examples](#Illustrative_examples)
 - [Video Demonstration](#Video-Demonstration)
-GeoLink_Logistics
+- [Contributors](#Contributors)
+
+
+**GeoLink_Logistics**
 
 
 
@@ -302,4 +305,9 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
 Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure that all dependencies and prerequisites are correctly installed.
 
 
-
+## Contributors
+- Oussama BOUFARRA ([GitHub](https://github.com/BOUFARRA-OUSSAMA))
+- Nizar BOUSSANE ([GitHub](https://github.com/Nizar17567))
+- Aya OUELD TIMIJJA ([GitHub](https://github.com/ayaoueldtimijja))
+- Youssef OUYHIA ([GitHub](https://github.com/youyhi))
+- BOUROUAY Abdelhamid ([GitHub](https://github.com/bourouayabdelhamid))

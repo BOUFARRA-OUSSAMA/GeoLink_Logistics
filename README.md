@@ -197,7 +197,7 @@ The backend code follows a modular and organized structure, leveraging the power
    - Description: MongoDB offers flexibility and scalability for managing structured and unstructured data, making it suitable for a wide range of use cases, including real-time analytics, content management, and mobile applications.
    - this is our web application database in MongoDB .  
       ![db](photos/db.png)
-Figure 1: Project architecture
+Figure 2: Project database
     
 
 5. **Mongoose:**
@@ -222,9 +222,14 @@ Figure 1: Project architecture
 
 
  ## Illustrative_examples
+**Home-Page**
 In our application we focus on simplicity also focusing on the main objectif of our app , as you can see , when a user access our web application the map and offers would be the first things to displayed, the user also can filter or click on offers button to display a list of all offers all over the world. 
  ![Consulter](photos/consulter.png)
 
+**Admin-DashBoard**
+The dashboard displays all the informations about our clients , thier actions also it display statistics and charts that holds informations about our the offers that are curently listed, the total of users and offers and time of intense activities .
+![dash](photos/admin1.png)
+Figure 3: Admin Dashboard
 
 ## getting-started
 

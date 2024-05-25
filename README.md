@@ -195,7 +195,7 @@ The backend code follows a modular and organized structure, leveraging the power
 4. **MongoDB:**
    - Purpose: A NoSQL document database for storing and retrieving data in JSON-like documents.
    - Description: MongoDB offers flexibility and scalability for managing structured and unstructured data, making it suitable for a wide range of use cases, including real-time analytics, content management, and mobile applications.
-  - this is our web application architecture  
+   - this is our web application database in MongoDB .  
       ![db](photos/db.png)
 Figure 1: Project architecture
     

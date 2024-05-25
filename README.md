@@ -304,6 +304,8 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
 
 Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure that all dependencies and prerequisites are correctly installed.
 
+## Video Demonstration
+https://github.com/BOUFARRA-OUSSAMA/GeoLink_Logistics/assets/118765563/1073b4dc-5017-4c9f-b37a-970bebf26a7d
 
 ## Contributors
 - Oussama BOUFARRA ([GitHub](https://github.com/BOUFARRA-OUSSAMA))

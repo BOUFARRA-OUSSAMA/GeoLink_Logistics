@@ -24,7 +24,7 @@ Our application is a web-based platform that aims to improve logistics managemen
 
 ## Software Architecture
 ![archi](photos/archi.png)
-Figure 3: Project architecture
+Figure 1: Project architecture
 
 GeoLink project is a logistics and supply chain improvement solution built using the MERN stack (MongoDB, Express, React, Node.js). MongoDB stores user data and shipment information, while Firebase handles storage for photos of both products and users. The frontend is developed with React and Mapbox for geolocation and mapping functionalities. The backend uses Node.js with Express, structuring the application with controllers in controllers directory, models in models directory, and routes in routes directory to handle authentication, shipment tracking, and data management. The frontend interacts with the backend through API endpoints defined in these routes to perform necessary operations, ensuring an efficient and responsive user experience.
 
@@ -195,8 +195,10 @@ The backend code follows a modular and organized structure, leveraging the power
 4. **MongoDB:**
    - Purpose: A NoSQL document database for storing and retrieving data in JSON-like documents.
    - Description: MongoDB offers flexibility and scalability for managing structured and unstructured data, making it suitable for a wide range of use cases, including real-time analytics, content management, and mobile applications.
-  # Project DataBase 
+  - this is our web application architecture  
       ![db](photos/db.png)
+Figure 1: Project architecture
+    
 
 5. **Mongoose:**
    - Purpose: An Object Data Modeling (ODM) library for MongoDB and Node.js.
